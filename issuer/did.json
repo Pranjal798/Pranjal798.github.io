@@ -1,10 +1,10 @@
 {
   "@context": "https://www.w3.org/ns/did/v1",
-  "id": "did:web:localhost%3A8002:issuer",
+  "id": "did:web:yourname.github.io:rsu",
   "verificationMethod": [{
-    "id": "did:web:localhost%3A8002:issuer#key-1",
+    "id": "did:web:yourname.github.io:rsu#key-1",
     "type": "JsonWebKey2020",
-    "controller": "did:web:localhost%3A8002:issuer",
+    "controller": "did:web:yourname.github.io:rsu",
     "publicKeyJwk": {
       "kty": "OKP",
       "crv": "Ed25519",
