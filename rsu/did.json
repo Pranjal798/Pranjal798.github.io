@@ -11,6 +11,6 @@
       "x": "0DHEb2y2cV2cYVUhuO2s55GM5vm4sIxSVpr1EBqviRU"
     }
   }],
-  "assertion": ["did:web:pranjal798.github.io:rsu#key-1"],
+  "assertionMethod": ["did:web:pranjal798.github.io:rsu#key-1"],
   "authentication": ["did:web:pranjal798.github.io:rsu#key-1"]
 } 
