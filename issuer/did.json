@@ -11,7 +11,7 @@
       "x": "2xc1yUnbZIw_wBjNKQuA4VqCBuOqndHDddrFG-Ze-Js"
     }
   }],
-  "assertion": [
+  "assertionMethod": [
     "did:web:pranjal798.github.io:issuer#key-1"
   ],
   "authentication": ["did:web:pranjal798.github.io:issuer#key-1"]
