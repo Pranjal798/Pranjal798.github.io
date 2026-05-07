@@ -1,15 +1,15 @@
 {
   "@context": "https://www.w3.org/ns/did/v1",
-  "id": "did:web:localhost%3A8000:rsu",
+  "id": "did:web:pranjal798.github.io:rsu",
   "verificationMethod": [{
-    "id": "did:web:localhost%3A8000:rsu#key-1",
+    "id": "did:web:pranjal798.github.io:rsu#key-1",
     "type": "JsonWebKey2020",
-    "controller": "did:web:localhost%3A8000:rsu",
+    "controller": "did:web:pranjal798.github.io:rsu",
     "publicKeyJwk": {
       "kty": "OKP",
       "crv": "Ed25519",
       "x": "0DHEb2y2cV2cYVUhuO2s55GM5vm4sIxSVpr1EBqviRU"
     }
   }],
-  "authentication": ["did:web:localhost%3A8000:rsu#key-1"]
+  "authentication": ["did:web:pranjal798.github.io:rsu#key-1"]
 } 
