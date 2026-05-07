@@ -1,0 +1,15 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:localhost%3A8002:issuer",
+  "verificationMethod": [{
+    "id": "did:web:localhost%3A8002:issuer#key-1",
+    "type": "JsonWebKey2020",
+    "controller": "did:web:localhost%3A8002:issuer",
+    "publicKeyJwk": {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "2xc1yUnbZIw_wBjNKQuA4VqCBuOqndHDddrFG-Ze-Js"
+    }
+  }],
+  "authentication": ["did:web:localhost%3A8002:issuer#key-1"]
+} 

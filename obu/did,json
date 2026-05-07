@@ -1,0 +1,15 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:localhost%3A8001:obu",
+  "verificationMethod": [{
+    "id": "did:web:localhost%3A8001:obu#key-1",
+    "type": "JsonWebKey2020",
+    "controller": "did:web:localhost%3A8001:obu",
+    "publicKeyJwk": {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "91IhfaxKoqwRo8bFmfj24jllUKSR2Y3Pu6nlSl3hjrI"
+    }
+  }],
+  "authentication": ["did:web:localhost%3A8001:obu#key-1"]
+}
