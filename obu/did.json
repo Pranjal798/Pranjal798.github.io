@@ -1,12 +1,40 @@
 {
-  "@context": "https://www.w3.org/ns/did/v1",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
   "id": "did:web:pranjal798.github.io:obu",
-  "verificationMethod": [{
-    "id": "did:web:pranjal798.github.io:obu#key-1",
-    "type": "JsonWebKey2020",
-    "controller": "did:web:pranjal798.github.io:obu",
-    "publicKeyJwk": {"crv":"X25519","kid":"key-1","kty":"OKP","x":"unZw2b9SV6gMmLVGy4wgFPl0ga83l0i-lOR26aoG4w0"}
-  }],
-  "assertionMethod": ["did:web:pranjal798.github.io:obu#key-1"],
-  "authentication": ["did:web:pranjal798.github.io:obu#key-1"]
+  "verificationMethod": [
+    {
+      "id": "did:web:pranjal798.github.io:obu#sign-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:pranjal798.github.io:obu",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "kid": "sign-1",
+        "crv": "Ed25519",
+        "x": "xKGPjxkZQTgt-9w87MI7-u5mDER75bWMw-ndaNrGyr8"
+      }
+    },
+    {
+      "id": "did:web:pranjal798.github.io:obu#enc-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:pranjal798.github.io:obu",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "kid": "enc-1",
+        "crv": "X25519",
+        "x": "UMswHkrXe21RSulho01qTCeePSGvoijzQ-wTugfh_28"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:pranjal798.github.io:obu#sign-1"
+  ],
+  "authentication": [
+    "did:web:pranjal798.github.io:obu#sign-1"
+  ],
+  "keyAgreement": [
+    "did:web:pranjal798.github.io:obu#enc-1"
+  ]
 }
