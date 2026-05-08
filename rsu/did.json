@@ -5,11 +5,7 @@
     "id": "did:web:pranjal798.github.io:rsu#key-1",
     "type": "JsonWebKey2020",
     "controller": "did:web:pranjal798.github.io:rsu",
-    "publicKeyJwk": {
-      "kty": "OKP",
-      "crv": "Ed25519",
-      "x": "0DHEb2y2cV2cYVUhuO2s55GM5vm4sIxSVpr1EBqviRU"
-    }
+    "publicKeyJwk": {"crv":"X25519","kid":"key-1","kty":"OKP","x":"J8hfOeRh1ZVCvvmUlUV52jqNrGS5Y6Oeo5HreOGZXkI"}
   }],
   "assertionMethod": ["did:web:pranjal798.github.io:rsu#key-1"],
   "authentication": ["did:web:pranjal798.github.io:rsu#key-1"]
