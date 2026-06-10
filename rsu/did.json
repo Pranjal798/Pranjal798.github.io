@@ -1,40 +1,40 @@
 {
-  "@context": [
-    "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/suites/jws-2020/v1"
-  ],
-  "id": "did:web:pranjal798.github.io:rsu",
-  "verificationMethod": [
-    {
-      "id": "did:web:pranjal798.github.io:rsu#sign-1",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:pranjal798.github.io:rsu",
-      "publicKeyJwk": {
-        "kty": "OKP",
-        "kid": "sign-1",
-        "crv": "Ed25519",
-        "x": "PRj9ClcgFubptiTmCbKxx6ZqhitZlQUqcn-1yVJfuRo"
-      }
-    },
-    {
-      "id": "did:web:pranjal798.github.io:rsu#enc-1",
-      "type": "JsonWebKey2020",
-      "controller": "did:web:pranjal798.github.io:rsu",
-      "publicKeyJwk": {
-        "kty": "OKP",
-        "kid": "enc-1",
-        "crv": "X25519",
-        "x": "BkhdFo0-Qi_Is13YvzPzmtV7M0KZ8C_0ViKaL2437lI"
-      }
-    }
-  ],
-  "assertionMethod": [
-    "did:web:pranjal798.github.io:rsu#sign-1"
-  ],
-  "authentication": [
-    "did:web:pranjal798.github.io:rsu#sign-1"
-  ],
-  "keyAgreement": [
-    "did:web:pranjal798.github.io:rsu#enc-1"
-  ]
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "did:web:Pranjal798.github.io:rsu",
+    "verificationMethod": [
+        {
+            "id": "did:web:Pranjal798.github.io:rsu#sign-1",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:Pranjal798.github.io:rsu",
+            "publicKeyJwk": {
+                "crv": "Ed25519",
+                "kid": "sign-1",
+                "kty": "OKP",
+                "x": "WYgF6WnU_kmymXYmaoBUSACmgXJ2JDwTNBSLAEfoyn0"
+            }
+        },
+        {
+            "id": "did:web:Pranjal798.github.io:rsu#enc-1",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:Pranjal798.github.io:rsu",
+            "publicKeyJwk": {
+                "crv": "X25519",
+                "kid": "enc-1",
+                "kty": "OKP",
+                "x": "CXsgEvFbE-6JtFA9RqJGtFi39jAlAm8n92O4Uqj852U"
+            }
+        }
+    ],
+    "authentication": [
+        "did:web:Pranjal798.github.io:rsu#sign-1"
+    ],
+    "assertionMethod": [
+        "did:web:Pranjal798.github.io:rsu#sign-1"
+    ],
+    "keyAgreement": [
+        "did:web:Pranjal798.github.io:rsu#enc-1"
+    ]
 }
