@@ -13,7 +13,7 @@
                 "crv": "Ed25519",
                 "kid": "sign-1",
                 "kty": "OKP",
-                "x": "4kAzrXXNwZ7dNyrZ5xSqvk-vdcjQriGIVEyeXiZKnqk"
+                "x": "wVpdASLQtkfLnZPmDPK_8n_GHC2b54kPxUyPwVlPnYc"
             }
         },
         {
@@ -24,7 +24,7 @@
                 "crv": "X25519",
                 "kid": "enc-1",
                 "kty": "OKP",
-                "x": "iqONtTMWy-1E_dTTSMMxLX0McyakxNjH6YWushArNmU"
+                "x": "Ktl1i76lK8D6gpX72NZPcIQ7IjmWfe_6HHN4cf1h2So"
             }
         }
     ],
