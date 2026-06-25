@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1"
+    ],
+    "id": "did:web:Pranjal798.github.io:obu",
+    "verificationMethod": [
+        {
+            "id": "did:web:Pranjal798.github.io:obu#sign-1",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:Pranjal798.github.io:obu",
+            "publicKeyJwk": {
+                "crv": "Ed25519",
+                "kid": "sign-1",
+                "kty": "OKP",
+                "x": "TXTZtsU88y_LCcxhlfHcywFUt1CHYkXv3UiQmVqkdvY"
+            }
+        },
+        {
+            "id": "did:web:Pranjal798.github.io:obu#enc-1",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:Pranjal798.github.io:obu",
+            "publicKeyJwk": {
+                "crv": "X25519",
+                "kid": "enc-1",
+                "kty": "OKP",
+                "x": "wXUkP4kcRGyTKiJ1y6GW5paKfDEWSlOuG9_0pvMq3SU"
+            }
+        }
+    ],
+    "authentication": [
+        "did:web:Pranjal798.github.io:obu#sign-1"
+    ],
+    "assertionMethod": [
+        "did:web:Pranjal798.github.io:obu#sign-1"
+    ],
+    "keyAgreement": [
+        "did:web:Pranjal798.github.io:obu#enc-1"
+    ]
+}
