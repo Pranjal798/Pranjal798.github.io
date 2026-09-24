@@ -1,40 +1,40 @@
 {
-    "@context": [
-        "https://www.w3.org/ns/did/v1",
-        "https://w3id.org/security/suites/ed25519-2020/v1"
-    ],
-    "id": "did:web:Pranjal798.github.io:obu",
-    "verificationMethod": [
-        {
-            "id": "did:web:Pranjal798.github.io:obu#sign-1",
-            "type": "JsonWebKey2020",
-            "controller": "did:web:Pranjal798.github.io:obu",
-            "publicKeyJwk": {
-                "crv": "Ed25519",
-                "kid": "sign-1",
-                "kty": "OKP",
-                "x": "I4dpxui0o4dI9sOaKoXrhBltRnmAaQmO1-49FA-eiWE"
-            }
-        },
-        {
-            "id": "did:web:Pranjal798.github.io:obu#enc-1",
-            "type": "JsonWebKey2020",
-            "controller": "did:web:Pranjal798.github.io:obu",
-            "publicKeyJwk": {
-                "crv": "X25519",
-                "kid": "enc-1",
-                "kty": "OKP",
-                "x": "2BBe3yXP77YE-XfbkOmq0W6SvbKDH73rHqWAfcw0hDg"
-            }
-        }
-    ],
-    "authentication": [
-        "did:web:Pranjal798.github.io:obu#sign-1"
-    ],
-    "assertionMethod": [
-        "did:web:Pranjal798.github.io:obu#sign-1"
-    ],
-    "keyAgreement": [
-        "did:web:Pranjal798.github.io:obu#enc-1"
-    ]
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:Pranjal798.github.io:obu",
+  "verificationMethod": [
+    {
+      "id": "did:web:Pranjal798.github.io:obu#sign-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:Pranjal798.github.io:obu",
+      "publicKeyJwk": {
+        "crv": "Ed25519",
+        "kid": "sign-1",
+        "kty": "OKP",
+        "x": "SkWw4Y4s04R30h_9sInrEKDyIL1OLkV5e767J4I-04w"
+      }
+    },
+    {
+      "id": "did:web:Pranjal798.github.io:obu#enc-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:Pranjal798.github.io:obu",
+      "publicKeyJwk": {
+        "crv": "X25519",
+        "kid": "enc-1",
+        "kty": "OKP",
+        "x": "uNWKsiA5Pbmu5CGsplcefpCz8bu_Tlf63y3ITsLaEyk"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:Pranjal798.github.io:obu#sign-1"
+  ],
+  "assertionMethod": [
+    "did:web:Pranjal798.github.io:obu#sign-1"
+  ],
+  "keyAgreement": [
+    "did:web:Pranjal798.github.io:obu#enc-1"
+  ]
 }
