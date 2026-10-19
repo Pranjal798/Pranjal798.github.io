@@ -1,0 +1,40 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "did:web:Pranjal798.github.io:fgvt-ivs-05-au",
+  "verificationMethod": [
+    {
+      "id": "did:web:Pranjal798.github.io:fgvt-ivs-05-au#sign-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:Pranjal798.github.io:fgvt-ivs-05-au",
+      "publicKeyJwk": {
+        "crv": "Ed25519",
+        "kid": "sign-1",
+        "kty": "OKP",
+        "x": "hZJsBXD_KhSJckNwJCiJN04lzx1hjmxvJKSCfGZOieA"
+      }
+    },
+    {
+      "id": "did:web:Pranjal798.github.io:fgvt-ivs-05-au#enc-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:Pranjal798.github.io:fgvt-ivs-05-au",
+      "publicKeyJwk": {
+        "crv": "X25519",
+        "kid": "enc-1",
+        "kty": "OKP",
+        "x": "78_rhgh9pSLI2ar5tfofiBXOdZWECGOrZyaITLNBWi4"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:Pranjal798.github.io:fgvt-ivs-05-au#sign-1"
+  ],
+  "assertionMethod": [
+    "did:web:Pranjal798.github.io:fgvt-ivs-05-au#sign-1"
+  ],
+  "keyAgreement": [
+    "did:web:Pranjal798.github.io:fgvt-ivs-05-au#enc-1"
+  ]
+}
